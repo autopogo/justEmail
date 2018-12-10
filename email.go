@@ -37,8 +37,6 @@ func (mail *Mail) buildMessage() string {
 	return header
 }
 
-// smtpServer := SmtpServer{host: "smtp-relay.gmail.com", port: "587", clientDomain: "autopogo.com"}
-
 // SmtpServer is the configuration type for the email package
 type SmtpServer struct {
 	Host string
