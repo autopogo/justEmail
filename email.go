@@ -1,3 +1,4 @@
+/* package justEmail provides basic functions to use SMTP in a way that most people would.  As HTML, over TLS, and also retrying if it sends on a disconnected client */
 package justEmail
 
 import (
